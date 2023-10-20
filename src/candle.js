@@ -5,13 +5,10 @@ export var Candle = (props) => {
     <div
       style={{
         ...props.style,
-        width: '100%',
-        height: '100%',
-        backgroundColor: '#25426E',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         gap: 0,
       }}
     >
@@ -29,9 +26,10 @@ export var Candle = (props) => {
       />
       <div
         data-label='candle'
+        className='candle'
         style={{
           width: 40,
-          height: 150,
+          height: props.height ? props.height : 150,
           left: 0,
           backgroundImage:
             'linear-gradient(90deg, #E0DECD 0%, #FFFFFF 58%)',
@@ -48,7 +46,7 @@ export var Candle = (props) => {
             borderRadius: 10,
             zIndex: 5,
             backgroundImage:
-              'linear-gradient(90deg, #E0DECD 0%, #FFFFFF 100%)',
+              'linear-gradient(90deg, #E0DECD 0%, #FFFFFF 24%)',
           }}
         />
         <div

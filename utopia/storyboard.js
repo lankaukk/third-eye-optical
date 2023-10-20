@@ -28,7 +28,7 @@ export var storyboard = (
         height: 3624,
         top: -24,
       }}
-      data-label='Mood Board'
+      data-label='The Vision'
     >
       <MoodBoard />
       <img
@@ -67,18 +67,78 @@ export var storyboard = (
         }}
         data-aspect-ratio-locked
       />
+      <div
+        style={{
+          position: 'absolute',
+          backgroundColor: '#401E7A',
+          width: 354,
+          height: 383,
+          left: 3254,
+          top: 1170,
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'flex-end',
+          justifyContent: 'center',
+          padding: 103,
+          borderRadius: 178,
+          overflow: 'hidden',
+        }}
+      >
+        <Candle />
+      </div>
     </Scene>
     <Scene
       style={{
         position: 'absolute',
-        left: -4769,
-        top: -43,
-        width: 589,
+        left: -3985,
+        top: -873,
+        width: 1411,
         height: 510,
       }}
       data-label='Candle'
     >
-      <Candle />
+      <div
+        style={{
+          backgroundColor: '#25426E',
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          flexDirection: 'row',
+          gap: 33.333333333333336,
+          alignItems: 'flex-end',
+          justifyContent: 'center',
+          padding: 38,
+        }}
+      >
+        <Candle
+          style={{ width: 160, height: 305 }}
+          height={200}
+        />
+        <Candle
+          style={{ width: 160, height: 205 }}
+          height={100}
+        />
+        <Candle
+          style={{ width: 160, height: 205 }}
+          height={33}
+        />
+        <Candle
+          style={{ width: 160, height: 295 }}
+          height={190}
+        />
+        <Candle
+          style={{ width: 160, height: 325 }}
+          height={220}
+        />
+        <Candle
+          style={{ width: 160, height: 325 }}
+          height={70}
+        />
+        <Candle
+          style={{ width: 160, height: 325 }}
+          height={142}
+        />
+      </div>
     </Scene>
   </Storyboard>
 )

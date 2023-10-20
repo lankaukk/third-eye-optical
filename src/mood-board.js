@@ -62,8 +62,9 @@ export var MoodBoard = () => {
       <Title
         style={{
           position: 'absolute',
-          left: 746,
-          top: 238,
+          left: 810,
+          top: 342,
+          color: '#25426e',
         }}
       />
       <div
@@ -114,8 +115,8 @@ export var MoodBoard = () => {
         src='./assets/clipboard/image_5.png'
         style={{
           position: 'absolute',
-          left: 2616,
-          top: 1262,
+          left: 2496,
+          top: 1260,
           width: 1000,
           height: 1500,
         }}
