@@ -1,5 +1,6 @@
 // import * as React from 'react'
 import { Outlet } from '@remix-run/react'
+import { Scene } from 'utopia-api'
 
 export default function App() {
   return (
