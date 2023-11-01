@@ -50,3 +50,16 @@
         height: 20px
     }
 }
+
+.magic {
+    animation: 10s infinite alternate ease-in-out magic;
+}
+
+@keyframes magic {
+    from {
+        top: 803px
+    }
+    to {
+        top: -100px;
+    }
+}

@@ -5,6 +5,7 @@ import Index from '/src/routes/_index'
 import { Group } from 'utopia-api'
 import { MoodBoard } from '/src/mood-board.js'
 import { Candle } from '/src/candle.js'
+import { Illusions } from '/src/illusions.js'
 
 export var storyboard = (
   <Storyboard>
@@ -23,7 +24,7 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
-        left: -3984,
+        left: -3996,
         width: 3872,
         height: 3624,
         top: -24,
@@ -90,8 +91,8 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
-        left: -3985,
-        top: -873,
+        left: -4946,
+        top: -896,
         width: 1411,
         height: 510,
       }}
@@ -139,6 +140,17 @@ export var storyboard = (
           height={142}
         />
       </div>
+    </Scene>
+    <Scene
+      style={{
+        position: 'absolute',
+        left: -5712,
+        top: -27,
+        width: 1472,
+        height: 1872,
+      }}
+    >
+      <Illusions style={{ height: 18 }} />
     </Scene>
   </Storyboard>
 )
