@@ -20,6 +20,7 @@ export var storyboard = (
         overflow: 'hidden',
       }}
       data-label='App'
+      commentId='554'
     />
     <Scene
       style={{
@@ -30,6 +31,7 @@ export var storyboard = (
         top: -24,
       }}
       data-label='The Vision'
+      commentId='c63'
     >
       <MoodBoard />
       <img
@@ -37,8 +39,8 @@ export var storyboard = (
         src='./assets/clipboard/image_6.png'
         style={{
           position: 'absolute',
-          left: 440,
-          top: 2208,
+          left: 144,
+          top: 2288,
           width: 1920,
           height: 1080,
         }}
@@ -97,6 +99,7 @@ export var storyboard = (
         height: 510,
       }}
       data-label='Candles'
+      commentId='07d'
     >
       <div
         style={{
@@ -150,6 +153,7 @@ export var storyboard = (
         height: 728,
       }}
       data-label='Illusion'
+      commentId='c39'
     >
       <Illusions style={{ height: 18 }} />
     </Scene>
