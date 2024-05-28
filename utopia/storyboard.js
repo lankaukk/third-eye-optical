@@ -39,8 +39,8 @@ export var storyboard = (
         src='./assets/clipboard/image_6.png'
         style={{
           position: 'absolute',
-          left: 144,
-          top: 2288,
+          left: 520,
+          top: 2168,
           width: 1920,
           height: 1080,
         }}
