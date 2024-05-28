@@ -43,8 +43,8 @@ export var MoodBoard = () => {
           position: 'absolute',
           width: 488,
           height: 488,
-          top: 468,
-          left: 172,
+          top: 652,
+          left: 624,
         }}
       />
       <img
@@ -52,8 +52,8 @@ export var MoodBoard = () => {
         src='./assets/clipboard/image_4.png'
         style={{
           position: 'absolute',
-          left: 714,
-          top: 696,
+          left: 1180,
+          top: 596,
           width: 600,
           height: 360,
         }}
@@ -70,17 +70,18 @@ export var MoodBoard = () => {
       <div
         style={{
           position: 'absolute',
-          top: 468,
-          left: 2176,
+          top: 530,
+          left: 2377,
           width: 'max-content',
           height: 'max-content',
           display: 'flex',
           flexDirection: 'row',
-          gap: 20,
           padding: 62,
           backgroundColor: '/*#903c10*/',
           border: '13px double #903C10',
           borderRadius: 2,
+          justifyContent: 'space-between',
+          alignItems: 'center',
         }}
       >
         <img
@@ -134,6 +135,33 @@ export var MoodBoard = () => {
         }}
         data-aspect-ratio-locked
       />
+      {
+        // @utopia/conditional=true
+        true ? (
+          <div
+            style={{
+              backgroundColor: '#aaaaaa33',
+              position: 'absolute',
+              left: 2719,
+              top: 2982,
+              width: 600,
+              height: 456,
+            }}
+          />
+        ) : (
+          <div
+            style={{
+              position: 'absolute',
+              left: 2719,
+              top: 2982,
+              width: 600,
+              height: 456,
+            }}
+          >
+            False branch
+          </div>
+        )
+      }
     </div>
   )
 }

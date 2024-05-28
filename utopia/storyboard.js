@@ -96,7 +96,7 @@ export var storyboard = (
         width: 1411,
         height: 510,
       }}
-      data-label='Candle'
+      data-label='Candles'
     >
       <div
         style={{
@@ -144,11 +144,12 @@ export var storyboard = (
     <Scene
       style={{
         position: 'absolute',
-        left: -5712,
+        left: -6080,
         top: -27,
-        width: 1472,
-        height: 1872,
+        width: 1248,
+        height: 728,
       }}
+      data-label='Illusion'
     >
       <Illusions style={{ height: 18 }} />
     </Scene>
