@@ -43,8 +43,8 @@ export var MoodBoard = () => {
           position: 'absolute',
           width: 488,
           height: 488,
-          top: 652,
-          left: 624,
+          top: 408,
+          left: 380,
         }}
       />
       <img
@@ -52,8 +52,8 @@ export var MoodBoard = () => {
         src='./assets/clipboard/image_4.png'
         style={{
           position: 'absolute',
-          left: 1180,
-          top: 596,
+          left: 948,
+          top: 796,
           width: 600,
           height: 360,
         }}
